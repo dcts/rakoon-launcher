@@ -11,7 +11,6 @@ import { getAccountData, launchMemecoin } from "./lib/radix-tools.mjs";
  *                                    without radix wallet app.
  */
 
-
 /**
  * SCRIPT BEGINS HERE
  */
@@ -27,6 +26,7 @@ import { getAccountData, launchMemecoin } from "./lib/radix-tools.mjs";
   console.log(`Bot initialized with ${network} account:\n${accountData.address}`);
 
   // 2 SET COIN METADATA
+  // TODO(developer): insert your onw memecoin data
   const memecoin = {
     name: "Kangoroo Coin",
     symbol: "KANGOROO",
